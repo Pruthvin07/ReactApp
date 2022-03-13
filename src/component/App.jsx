@@ -6,6 +6,10 @@ import { BrowserRouter ,Routes ,Route} from "react-router-dom";
  import Login from "./Login"
  import Acupressure from "./Acupressure";
  import BodyPart from "./BodyPart";
+ import "../component/App.css"
+import AcuCard from "./AcuCard";
+
+ 
  
 
 function App(){
@@ -17,7 +21,9 @@ function App(){
     <Route path="/register" element={<SignUp />} />
     <Route path="/login" element={<Login />} />
     <Route path="/acupressure" element={<Acupressure />} />
-    <Route path="/acupressure/:bodyPart" element={<BodyPart />} />
+    <Route path="/acupressure/:BodyPart" element={<BodyPart />} />
+    <Route path="/acupressure/:BodyPart/:acupoint" element={<AcuCard />} />
+
         
 
     </Routes>

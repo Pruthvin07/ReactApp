@@ -1,8 +1,8 @@
 
-export const AllBodyPart = {"head":{
-
-
-      
+export const AllBodyPart = {
+    
+    "head":{
+  
     "Eye": {
             "probTitle": "Eye",
             "Acupoint": [
@@ -103,7 +103,7 @@ export const AllBodyPart = {"head":{
                 }
             ]
         },
-        "Cold": {
+        "Cold & Influenza": {
             "probTitle": "Cold & Influenza (Flu)",
             "Acupoint": [
                 {
@@ -238,5 +238,118 @@ export const AllBodyPart = {"head":{
                 }
             ]
         }
-    }
+    },
+// Next Body Part
+    "Neck":{
+        "Headache": {
+            "probTitle": "Headache",
+            "Acupoint": [
+                {
+                    "name": "Acupoint 1: LI-4",
+                    "desc": "Squeeze thumb and forefinger together, forming a ridge above the thumb; the point is in the middle of that ridge, just above the end of the crease formed by thumb and forefinger; good for most problems from the waist up",
+                    "img": "https://pointfinder.org/images/acu01.gif"
+                },
+                {
+                    "name": "Acupoint 3: SJ-5",
+                    "desc": "Two thumb widths above the outside of the wrist, lined up with the middle finger",
+                    "img": "https://pointfinder.org/images/acu03.gif"
+                },
+                {
+                    "name": "Acupoint 4: Bl60",
+                    "desc": "In the depression just behind the outer anklebone",
+                    "img": "https://pointfinder.org/images/acu04.gif"
+                },
+                {
+                    "name": "Acupoint 6: St-36",
+                    "desc": "One palm width below the bottom edge of the kneecap, on the outside, in a depression between the shinbone and the leg muscle; effective for most problems from the waist down, especially when used with acupoint #5",
+                    "img": "https://pointfinder.org/images/acu06.gif"
+                },
+                {
+                    "name": "Acupoint 7: LU-7",
+                    "desc": "Clasp your hands together (A), touching your upper wrist with your forefinger; the point is found on a line with the thumb, in a small depression (B); remembering the position of the point, unclasp your hands and apply pressure",
+                    "img": "https://pointfinder.org/images/acu07.gif"
+                }
+            ]
+        },
+        "Sinus":{
+            "probTitle": "Sinus Headache",
+            "Acupoint": [
+                {
+                    "name": "Acupoint 7: LU-7",
+                    "desc": "Clasp your hands together (A), touching your upper wrist with your forefinger; the point is found on a line with the thumb, in a small depression (B); remembering the position of the point, unclasp your hands and apply pressure",
+                    "img": "https://pointfinder.org/images/acu07.gif"
+                },
+                {
+                    "name": "Acupoint 10: LU-11",
+                    "desc": "Just behind the thumbnail, on the side opposite the fingers",
+                    "img": "https://pointfinder.org/images/acu10.gif"
+                },
+                {
+                    "name": "Acupoint 18: St-45",
+                    "desc": "Just behind the nail of the second toe, on the side opposite the big toe",
+                    "img": "https://pointfinder.org/images/acu18.gif"
+                },
+                {
+                    "name": "Acupoint 1: LI-4",
+                    "desc": "Squeeze thumb and forefinger together, forming a ridge above the thumb; the point is in the middle of that ridge, just above the end of the crease formed by thumb and forefinger; good for most problems from the waist up",
+                    "img": "https://pointfinder.org/images/acu01.gif"
+                }
+            ]
+        },
+        "Migraine": {
+            "probTitle": "Migraine Headache",
+            "Acupoint": [
+                {
+                    "name": "Acupoint 7: LU-7",
+                    "desc": "Clasp your hands together (A), touching your upper wrist with your forefinger; the point is found on a line with the thumb, in a small depression (B); remembering the position of the point, unclasp your hands and apply pressure",
+                    "img": "https://pointfinder.org/images/acu07.gif"
+                },
+                {
+                    "name": "Acupoint 26: (nostril)",
+                    "desc": "Pinch the nostril, on the side opposite the septum; good for severe headache",
+                    "img": "https://pointfinder.org/images/acu26.gif"
+                },
+                {
+                    "name": "Acupoint 12: LU-9",
+                    "desc": "On the largest crease of the inner wrist, on a line with the thumb",
+                    "img": "https://pointfinder.org/images/acu12.gif"
+                },
+                {
+                    "name": "Acupoint 1: LI-4",
+                    "desc": "Squeeze thumb and forefinger together, forming a ridge above the thumb; the point is in the middle of that ridge, just above the end of the crease formed by thumb and forefinger; good for most problems from the waist up",
+                    "img": "https://pointfinder.org/images/acu01.gif"
+                }
+            ]
+        }
+        },
+
+// Next Body Part
+    "shoulder":{
+  
+    },
+
+// Next Body Part
+    "arm":{
+  
+    },
+
+// Next Body Part
+    "chest":{
+  
+    },
+
+ // Next Body Part
+    "abdomen":{
+  
+    },
+// Next Body Part
+"Leg":{
+  
+},
+
+// Next Body Part
+"Whole Body":{
+  
+},
 }
+

@@ -2,6 +2,7 @@ import React from 'react';
 import ListButton from './ListButton';
 import { useParams } from 'react-router-dom';
 import { AllBodyPart } from '../data/head';
+import { Link } from 'react-router-dom';
 
 
   
@@ -9,47 +10,42 @@ function BodyPart(){
 
   const params = useParams()
   
-  console.log(AllBodyPart[params.bodyPart])
+  var Hname = Object.keys(AllBodyPart[params.BodyPart])
 
     return  (<div className="jumbotron" style={{backgroundColor: "#96CEB4" }}  >
     <br/><br/>
-    <h1 style={{ fontFamily: "Montserrat", textAlign:"center" }}>Select the part from HEAD</h1>
+    <h1 style={{ fontFamily: "Montserrat", textAlign:"center" }}>Select from the List</h1>
     <div className="container" >
       <hr className="progress" size="10" color="beige"/>
       <br/><br/>
       
     <div className="row">
 
-      <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat", textAlign:"center" }} >
-       
-      <ListButton  text="Eye"/>
      
-      <ListButton  text="Conjuncativitis"/>
 
-      <ListButton text="Ear"/>
+      {Hname.map(function(element){
+            return (<div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat", textAlign:"center" }} >
+            <Link to={`/acupressure/${params.BodyPart}/${element}`}>
+                <ListButton text={element[0].toUpperCase() + element.substring(1)}/>
+            </Link>
+            </div>) 
+        })}
+       
+      
+      
 
-     </div>
+    
 
      <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat" ,textAlign:"center"}}>
     
-     <ListButton  text="Nose"/>
      
-     <ListButton  text="Cold-Influenza"/>
-
-     <ListButton text="Dizziness"/>
-
-     <ListButton text="Migraine"/>
       
         
        </div>
 
        <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat",textAlign:"center" }} >
       
-       <ListButton  text="Fatigue"/>
-     
-        <ListButton  text="Headache"/>
-
-        <ListButton text="Sinus"/>
+       
       
       <br/><br/>
      </div>

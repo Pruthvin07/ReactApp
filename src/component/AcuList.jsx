@@ -1,5 +1,6 @@
 import React from 'react';
 import ListButton from './ListButton';
+import { Link } from 'react-router-dom';
 
   
 function AcuList(){
@@ -16,9 +17,9 @@ function AcuList(){
     <div className="row">
       <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat", textAlign:"center"}} >
        
-      <ListButton  text="Head"/>
+      <Link to="/acupressure/head"><ListButton  text="Head"/></Link> 
      
-      <ListButton  text="Neck"/>
+      <Link to="/acupressure/Neck"><ListButton  text="Neck"/></Link>
 
       <ListButton text="Shoulder"/>
 
