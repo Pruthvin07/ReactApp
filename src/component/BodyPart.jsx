@@ -11,6 +11,7 @@ function BodyPart(){
   const params = useParams()
   
   var Hname = Object.keys(AllBodyPart[params.BodyPart])
+  
 
     return  (<div className="jumbotron" style={{backgroundColor: "#96CEB4" }}  >
     <br/><br/>

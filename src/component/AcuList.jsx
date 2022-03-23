@@ -19,28 +19,28 @@ function AcuList(){
        
       <Link to="/acupressure/head"><ListButton  text="Head"/></Link> 
      
-      <Link to="/acupressure/Neck"><ListButton  text="Neck"/></Link>
+      <Link to="/acupressure/neck"><ListButton  text="Neck"/></Link>
 
-      <ListButton text="Shoulder"/>
+      <Link to="/acupressure/shoulder"><ListButton text="Shoulder"/></Link>
 
      </div>
      <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat" ,textAlign:"center"}}>
     
-     <ListButton  text="Arm"/>
+     <Link to="/acupressure/arm"><ListButton  text="Arm"/></Link>
      
-     <ListButton  text="Back"/>
+     <Link to="/acupressure/back"> <ListButton  text="Back"/></Link>
 
-     <ListButton text="Chest"/>
+     <Link to="/acupressure/chest"><ListButton text="Chest"/></Link>
       
         
        </div>
        <div className="col-lg-4 features-box" style={{ fontFamily: "Montserrat",textAlign:"center" }} >
 
-       <ListButton  text="Abdomen"/>
+       <Link to="/acupressure/abdomen"><ListButton  text="Abdomen"/></Link>
      
-       <ListButton  text="Leg"/>
+       <Link to="/acupressure/leg"> <ListButton  text="Leg"/></Link>
 
-      <ListButton text="Whole Body"/>
+       <Link to="/acupressure/Wholebody"> <ListButton text="Wholebody"/></Link>
       <br/><br/>
      </div>
      
