@@ -41,10 +41,10 @@ function SoundList() {
 
   return (
     <div className="AudioList">
-      <h2 className="title" style={{ fontFamily: "Montserrat", textAlign:"center"}}>
-        The Sound Therapy list of songs  <span></span>
-      </h2>
-        <br/> <br/> <br/>
+      <h1 className="title" style={{ fontFamily: "Farro", textAlign:"center", color:"black"}}>
+        The Sound Therapy list of songs<span></span>
+      </h1>
+        <br/>
       <div className="songsContainer">
         {songs &&
           songs.map((song, index) => (
@@ -88,7 +88,7 @@ function SoundList() {
             </div>
           ))}
       </div>
-        <br/><br/><br/>
+       <br/><br/>
       <SoundMusicPlayer song={song} imgSrc={img} autoplay={auto} />
     </div>
   )

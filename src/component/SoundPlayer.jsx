@@ -16,7 +16,7 @@ function SoundPlayer() {
       }, []);
     
   return (
-    <div className="jumbotron" style={{backgroundColor: "#5F7464"}} >
+    <div className="jumbotron" style={{backgroundColor: "#f6f1ed",textAlign: "center", fontFamily: "'Farro'"}} >
     <div className="container" >
     <div className="menuList">
        

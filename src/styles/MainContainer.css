@@ -50,25 +50,25 @@
   }
   
   .content .breadCrump P {
-    color: #848484;
+    color: #1A132F;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
   }
   
   .content .breadCrump P span {
-    color: #f1f1f1;
+    color: #61A4BC;
   }
   
   .content .breadCrump i {
-    color: #f1f1f1;
+    color: #61A4BC;
     font-size: 24px;
     cursor: pointer;
   }
   
   .content .artist {
     margin-top: auto;
-    color: #f1f1f1;
+    color: #61A4BC;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +97,7 @@
   }
   
   .content .artist .left p span {
-    color: #848484;
+    color: #1A132F;
     margin-left: 6px;
   }
   
@@ -110,7 +110,7 @@
     text-decoration: none;
     padding: 10px 30px;
     font-size: 18px;
-    color: #f1f1f1;
+    color: #61A4BC;
     border-radius: 100vw;
     margin: 0 20px;
     font-weight: bold;
@@ -124,7 +124,7 @@
   }
   
   .content .artist .right a:nth-child(1) {
-    background: #39aa24;
+    background: #FF6B6B;
   }
   
   .content .artist .right a:nth-child(2) {
@@ -138,7 +138,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background: #2c2c2c;
+    background: #1A132F;
   }
   
   .menuList ul {
@@ -154,7 +154,7 @@
   
   .mainContainer .menuList ul li a {
     text-decoration: none;
-    color: #848484;
+    color: #1A132F;
   }
   
   .mainContainer .menuList ul li::before {
@@ -165,7 +165,7 @@
     width: 0px;
     height: 5px;
     border-radius: 5px;
-    background: #f1f1f1;
+    background: #61A4BC;
   }
   
   .mainContainer .menuList ul li:hover::before,
@@ -176,12 +176,12 @@
   
   .mainContainer .menuList ul li:hover a,
   .mainContainer .menuList ul li.active a {
-    color: #f1f1f1;
+    color: #61A4BC;
     transition: 0.3s ease;
   }
   
   .mainContainer .menuList p {
-    color: #f1f1f1;
+    color: #61A4BC;
     font-size: 14px;
   }
   
@@ -192,27 +192,28 @@
   
   .mainContainer p span {
     margin-left: 6px;
-    color: #848484;
+    color: #1A132F;
   }
   
-  .AudioList {
+  .AudioList{
     padding: 10px 30px;
   }
   
+ 
   .AudioList .title {
     font-size: 18px;
-    color: #f1f1f1;
+    color: #61A4BC;
   }
   
   .AudioList .title span {
     margin-left: 5px;
-    color: #848484;
+    color: #1A132F;
     font-size: 14px;
     font-weight: 200;
   }
   
   .AudioList .songsContainer {
-    height: 220px;
+    height: 350px;
     overflow-y: scroll;
   }
   
@@ -221,7 +222,7 @@
     align-items: center;
     font-size: 14px;
     font-weight: 600;
-    color: #848484;
+    color: #1A132F;
     width: 100%;
     margin: 10px 0;
     padding: 5px;
@@ -230,7 +231,7 @@
   
   .AudioList .songs.active,
   .AudioList .songs.active .song .section .songName .songSpan {
-    color: #f1f1f1 !important;
+    color: #61A4BC !important;
   }
   
   .AudioList .songs .count {
@@ -250,7 +251,7 @@
     min-width: 45px;
     height: 45px;
     border-radius: 0.5em;
-    background-color: #848484;
+    background-color: #1A132F;
     margin-right: 10px;
     overflow: hidden;
   }
@@ -293,13 +294,13 @@
   }
   
   .AudioList .songs .song .section .hits .favourite i {
-    color: #49e12e !important;
-    filter: drop-shadow(0px 0px 4px #49e12e);
+    color: #FF6B6B !important;
+    filter: drop-shadow(0px 0px 4px #FF6B6B);
   }
   
   .AudioList .songs:hover,
   .AudioList .songs:hover .song .section .songName .songSpan {
-    color: #f1f1f1;
+    color: #61A4BC;
     transition: all 0.3s;
     cursor: pointer;
   }
